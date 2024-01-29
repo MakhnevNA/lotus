@@ -35,16 +35,16 @@ class App extends Component {
         });
     };
 
-    onDataLoaded() {
+    onDataLoaded = () => {
         this.setState({
             loading: false,
         });
-    }
-    onDataError() {
+    };
+    onDataError = () => {
         this.setState({
             error: true,
         });
-    }
+    };
 
     render() {
         const { data, text, loading, error } = this.state;
@@ -64,8 +64,8 @@ class App extends Component {
                 <Header />
                 <main
                     className={`main ${
-                        loading === true || error === true
-                    } ? flex : ''`}
+                        (loading === true || error === true) && "flex"
+                    }  `}
                 >
                     {errorMessage}
                     {spinner}
