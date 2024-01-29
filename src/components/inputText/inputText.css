@@ -1,0 +1,10 @@
+.Search__filter {
+    margin: 20px 0 20px 0;
+}
+
+.Search__filter-input {
+    height: 40px;
+    border: 1px solid teal;
+    padding: 10px 15px;
+    font-size: 18px;
+}

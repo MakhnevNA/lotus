@@ -1,0 +1,25 @@
+.List__item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid teal;
+    margin: 0px 0 10px 0;
+}
+
+.List__item:last-child {
+    margin: 0;
+}
+
+.List__item-content {
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.List__item-name {
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.List__item-gender {
+    font-size: 16px;
+}
