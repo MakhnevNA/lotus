@@ -68,7 +68,10 @@ class List extends Component {
             });
     };
 
-    searchDebounced = debounce((value: string) => this.search(value), 500);
+    searchDebounced = debounce<List>(
+        (value: string) => this.search(value),
+        500
+    );
 
     render() {
         const { data, text, loading, error } = this.state;
