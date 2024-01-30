@@ -8,3 +8,7 @@
     padding: 10px 15px;
     font-size: 18px;
 }
+
+.not-allowed {
+    cursor: not-allowed;
+}

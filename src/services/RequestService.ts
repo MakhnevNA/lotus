@@ -1,5 +1,5 @@
 class RequestService {
-    onRequest = async (url: string) => {
+    request = async (url: string) => {
         try {
             const res = await fetch(url);
 
